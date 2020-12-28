@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       <Button onClick={()=>{alert('add')}}> Add </Button>
-      {/* <Button btnType={ButtonType.Primary} size={ButtonSize.Large}> Add </Button>
-      <Button btnType={ButtonType.Link} href="https://www.baidu.com" disabled> Baidu Link </Button> */}
+      <Button btnType="primary" size="lg"> Add </Button>
+      <Button btnType="danger" href="https://www.baidu.com" disabled> Baidu Link </Button>
     </div>
   );
 }
